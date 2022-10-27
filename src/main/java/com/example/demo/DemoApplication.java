@@ -21,6 +21,6 @@ public class DemoApplication {
 	@RequestMapping("/")
 	String sayHello() {
 		log.info("Hitting endpoint at " + ZonedDateTime.now(ZoneId.of("America/Chicago")));
-		return "Hello Azure!";
+		return "Hello World!";
 	}
 }
